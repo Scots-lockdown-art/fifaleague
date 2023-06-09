@@ -1,0 +1,167 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(1, 1, 59);
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+
+
+.hero {
+    background-image: url("../img/hero.webp");
+    background-size: cover;
+    height:100vh;
+    color:white;
+    padding-top:250px;
+    padding-left:50px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+
+.guide {
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom:50px;
+    font-size:2em;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    flex-wrap:wrap;
+   
+}
+
+
+
+@media screen and (min-width: 480px) {
+    
+    h1 {
+    text-align:center;
+    font-size:2em;
+    color:yellow;
+}
+
+.signup {
+    font-size:1.4em;
+    text-align:center;
+    width:80%;
+    margin: 0px auto;
+}
+
+    
+.fsl {
+    font-size:5em;
+    font-weight:bold;
+    color:yellow;
+}
+
+.heroTxt {
+    font-size:3em;
+    font-weight:bold;
+}
+
+
+.squad {
+    min-width:400px;
+    height:250px;
+    width:25%;
+    padding:10px;
+    background-color: rgb(44, 112, 143);
+    margin-bottom:30px;
+}
+
+.squad2 {
+    min-width:400px;
+    height:250px;
+    width:25%;
+    padding:10px;
+    background-color: rgb(44, 112, 143);
+    margin-bottom:30px;
+}
+
+.squad3 {
+    min-width:400px;
+    height:250px;
+    width:25%;
+    padding:10px;
+    background-color: rgb(44, 112, 143);
+    margin-bottom:30px;
+}
+
+}
+
+.yellow {
+    color:yellow;
+    font-size:1.2em;
+}
+
+.yellow2 {
+    color:rgb(3, 12, 94);;
+    font-size:1.2em;
+}
+
+@media screen and (max-width: 480px)
+
+{
+
+    h1 {
+        text-align:center;
+        font-size:1.7em;
+        color:yellow;
+    }
+    
+    .signup {
+        font-size:1.2em;
+        text-align:center;
+        width:80%;
+        margin: 0px auto;
+    }
+
+    .squad {
+        min-width:300px;
+        height:300px;
+        width:25%;
+        padding:10px;
+        background-color: rgb(44, 112, 143);
+        margin-bottom:30px;
+    }
+    
+    .squad2 {
+        min-width:300px;
+        height:300px;
+        width:25%;
+        padding:10px;
+        background-color: rgb(44, 112, 143);
+        margin-bottom:30px;
+    }
+    
+    .squad3 {
+        min-width:300px;
+        height:300px;
+        width:25%;
+        padding:10px;
+        background-color: rgb(44, 112, 143);
+        margin-bottom:30px;
+    }
+
+    
+.fsl {
+    font-size:3em;
+    font-weight:bold;
+    color:yellow;
+}
+
+.heroTxt {
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+
+
+}
+
+.dream {
+    text-align:center;
+    margin:0 auto;
+    width: 90%;
+}
