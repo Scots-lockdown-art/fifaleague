@@ -31,6 +31,10 @@ body {
    
 }
 
+.logo1 {
+    height:60px;
+}
+
 
 
 @media screen and (min-width: 480px) {
