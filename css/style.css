@@ -34,7 +34,31 @@ body {
 
 
 @media screen and (min-width: 480px) {
+
+    h5 {font-size:1.7em;
+    margin-bottom:-10px;
+    color:rgb(255, 255, 255);
+}
+
+    h3 {
+        color:rgb(65, 65, 65);
+    }
+
+    h4 {
+        color:rgb(139, 139, 139);
+        margin-bottom:-10px;
+    }
+
+    .boxy {
+        color:rgb(255, 255, 255);
+    }
     
+    .line {
+        margin:-10px auto;
+        border-top:1px solid rgb(124, 124, 124);
+        margin-bottom:-45px;
+    }
+
     h1 {
     text-align:center;
     font-size:2em;
@@ -63,10 +87,10 @@ body {
 
 .squad {
     min-width:400px;
-    height:250px;
+    border-radius:25px;
     width:25%;
     padding:10px;
-    background-color: rgb(44, 112, 143);
+    background-color: rgb(218, 221, 131);
     margin-bottom:30px;
 }
 
