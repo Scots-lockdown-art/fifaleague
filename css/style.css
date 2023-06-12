@@ -6,7 +6,27 @@ body {
     padding:0;
 }
 
+.discord2 {
+    text-align:center;
+    font-size:3em;
+   width:fit-content;
+   border-radius:20px;
+   padding:10px 20px;
+   margin:45px auto;
+   background-color: rgb(253, 253, 253);
+   color:yellow;
+   cursor: pointer;
+   margin-bottom:80px;
+}
 
+.discord2:hover {
+    background-color: grey;
+}
+
+.discord {
+    text-decoration:none;
+    color:rgb(26, 26, 26);
+}
 
 .hero {
     background-image: url("../img/hero.webp");
