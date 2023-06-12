@@ -59,6 +59,19 @@ body {
 
 @media screen and (min-width: 480px) {
 
+    .discord2 {
+        text-align:center;
+        font-size:3em;
+       width:fit-content;
+       border-radius:20px;
+       padding:10px 20px;
+       margin:45px auto;
+       background-color: rgb(253, 253, 253);
+       color:yellow;
+       cursor: pointer;
+       margin-bottom:80px;
+    }
+
     h5 {font-size:1.7em;
     margin-bottom:-10px;
     color:rgb(25, 0, 71);
@@ -136,6 +149,10 @@ body {
     margin-bottom:30px;
 }
 
+.discord3 {
+    display:none;
+}
+
 }
 
 .yellow {
@@ -151,6 +168,23 @@ body {
 @media screen and (max-width: 480px)
 
 {
+
+    .discord2 {
+       display:none;
+    }
+
+    .discord3 {
+        text-align:center;
+        font-size:20px;
+       width:fit-content;
+       border-radius:20px;
+       padding:10px 20px;
+      
+       background-color: rgb(253, 253, 253);
+       color:yellow;
+       cursor: pointer;      
+
+    }
 
     h5 {font-size:1.4em;
         margin-bottom:-10px;
